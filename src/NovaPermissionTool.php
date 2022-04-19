@@ -2,7 +2,8 @@
 
 namespace Stormcatch\NovaPermission;
 
-use Gate;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Http\Request;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
@@ -58,7 +59,9 @@ class NovaPermissionTool extends Tool
         return $this;
     }
 
-	public function menu(Illuminate\Http\Request $request){
+    public function menu(Request $request)
+    {
+        // TODO: Implement menu() method.
+    }
 
-	}
 }
