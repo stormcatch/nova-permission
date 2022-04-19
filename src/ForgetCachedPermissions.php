@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Laravel\Nova\Nova;
 use Spatie\Permission\PermissionRegistrar;

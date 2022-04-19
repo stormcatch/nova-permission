@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Gate;
 use Laravel\Nova\Nova;
@@ -57,4 +57,8 @@ class NovaPermissionTool extends Tool
 
         return $this;
     }
+
+	public function menu(){
+
+	}
 }

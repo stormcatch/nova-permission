@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 

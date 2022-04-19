@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Illuminate\Support\Collection;
 use Laravel\Nova\Fields\Select;

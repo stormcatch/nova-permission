@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\InteractsWithQueue;
@@ -9,6 +9,7 @@ use Illuminate\Support\Collection;
 use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Fields\Select;
+use Laravel\Nova\Http\Requests\NovaRequest;
 
 class AttachToRole extends Action
 {
@@ -34,7 +35,7 @@ class AttachToRole extends Action
      *
      * @return array
      */
-    public function fields()
+    public function fields(NovaRequest $request)
     {
         return [
             Select::make('Role')->options(Role::getModel()->get()->pluck('name', 'id')->toArray())->displayUsingLabels(),

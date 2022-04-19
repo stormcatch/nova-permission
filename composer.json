@@ -1,6 +1,6 @@
 {
-    "name": "vyuldashev/nova-permission",
-    "description": "A Laravel Nova tool for Spatie's Permission library.",
+    "name": "stormcatch/nova-permission",
+    "description": "A Laravel Nova 4 tool for Spatie's Permission library.",
     "keywords": [
         "laravel",
         "nova",
@@ -22,7 +22,7 @@
         },
         "laravel": {
             "providers": [
-                "Vyuldashev\\NovaPermission\\ToolServiceProvider"
+                "Stormcatch\\NovaPermission\\ToolServiceProvider"
             ]
         }
     },

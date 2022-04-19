@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\NovaPermission;
+namespace Stormcatch\NovaPermission;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
