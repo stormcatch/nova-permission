@@ -58,7 +58,7 @@ class NovaPermissionTool extends Tool
         return $this;
     }
 
-	public function menu(){
+	public function menu(Illuminate\Http\Request $request){
 
 	}
 }
