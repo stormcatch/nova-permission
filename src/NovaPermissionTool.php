@@ -22,10 +22,10 @@ class NovaPermissionTool extends Tool
      */
     public function boot()
     {
-        //Nova::resources([
-        //    $this->roleResource,
-        //    $this->permissionResource,
-        //]);
+        Nova::resources([
+            $this->roleResource,
+            $this->permissionResource,
+        ]);
 
         Gate::policy(config('permission.models.permission'), $this->permissionPolicy);
         Gate::policy(config('permission.models.role'), $this->rolePolicy);
